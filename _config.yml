@@ -79,3 +79,17 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: false
+  total_time: false
+  
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
